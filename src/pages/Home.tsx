@@ -56,6 +56,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 个人简介 */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">关于我</h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 shadow-sm">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                你好！我是狸猫，一名来自广东科学技术职业学院商学院商务数据分析与应用专业的学生。我对数据分析充满热情，致力于通过数据发现问题、解决问题，为决策提供有力支持。
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                在学习过程中，我已经掌握了Python编程、数据采集、数据库管理等基本技能，并正在深入学习数据分析技术、供应链数据分析等专业课程。我相信，通过不断学习和实践，我能够在数据分析领域取得进步。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">5+</div>
+                  <div className="text-gray-600">专业课程</div>
+                </div>
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">3</div>
+                  <div className="text-gray-600">学习学期</div>
+                </div>
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">∞</div>
+                  <div className="text-gray-600">学习热情</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 课程列表 */}
       <section className="py-12">
         <div className="container mx-auto px-4">
@@ -82,6 +113,32 @@ export default function Home() {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 标语 */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+        <div className="container mx-auto px-4 text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6">用数据说话，让决策更智慧</h2>
+            <p className="text-xl mb-8 opacity-90">
+              Data speaks, decisions wiser. 每一个数据都有它的故事，我愿做那个发现故事的人。
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
+                📊 数据分析
+              </div>
+              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
+                🐍 Python编程
+              </div>
+              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
+                📈 数据可视化
+              </div>
+              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
+                🎯 数据驱动决策
+              </div>
+            </div>
           </div>
         </div>
       </section>
