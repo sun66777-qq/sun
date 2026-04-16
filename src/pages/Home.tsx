@@ -48,11 +48,11 @@ export default function Home() {
       </nav>
 
       {/* 个人信息 */}
-      <section className="bg-blue-800 text-blue-50 py-16">
+      <section className="bg-blue-800 text-black py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4 text-white">狸猫</h1>
-          <p className="text-xl mb-2 text-blue-100">广东科学技术职业学院</p>
-          <p className="text-lg text-blue-100">商学院 · 商务数据分析与应用专业</p>
+          <h1 className="text-5xl font-bold mb-4">狸猫</h1>
+          <p className="text-2xl mb-2 font-semibold">广东科学技术职业学院</p>
+          <p className="text-xl font-medium">商学院 · 商务数据分析与应用专业</p>
         </div>
       </section>
 
@@ -118,24 +118,24 @@ export default function Home() {
       </section>
 
       {/* 标语 */}
-      <section className="py-16 bg-blue-800 text-blue-50">
+      <section className="py-16 bg-blue-800 text-black">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-white">用数据说话，让决策更智慧</h2>
-            <p className="text-xl mb-8 text-blue-100">
+            <h2 className="text-4xl font-bold mb-6">用数据说话，让决策更智慧</h2>
+            <p className="text-xl mb-8 font-medium">
               Data speaks, decisions wiser. 每一个数据都有它的故事，我愿做那个发现故事的人。
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-white">
+              <div className="bg-white/30 backdrop-blur-sm px-6 py-3 rounded-full text-black font-medium">
                 📊 数据分析
               </div>
-              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-white">
+              <div className="bg-white/30 backdrop-blur-sm px-6 py-3 rounded-full text-black font-medium">
                 🐍 Python编程
               </div>
-              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-white">
+              <div className="bg-white/30 backdrop-blur-sm px-6 py-3 rounded-full text-black font-medium">
                 📈 数据可视化
               </div>
-              <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-white">
+              <div className="bg-white/30 backdrop-blur-sm px-6 py-3 rounded-full text-black font-medium">
                 🎯 数据驱动决策
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function Home() {
       </section>
 
       {/* 页脚 */}
-      <footer className="bg-blue-800 text-blue-100 py-8">
+      <footer className="bg-blue-800 text-black py-8">
         <div className="container mx-auto px-4 text-center">
           <p>© 2026 狸猫的个人页面</p>
         </div>
