@@ -50,6 +50,13 @@ export default function Home() {
       {/* 个人信息 */}
       <section className="bg-blue-800 text-black py-16">
         <div className="container mx-auto px-4 text-center">
+          <div className="mb-6">
+            <img 
+              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cute%20cartoon%20cat%20avatar%2C%20blue%20theme%2C%20simple%20style%2C%20white%20background&image_size=square" 
+              alt="狸猫头像" 
+              className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-white shadow-lg"
+            />
+          </div>
           <h1 className="text-5xl font-bold mb-4">狸猫</h1>
           <p className="text-2xl mb-2 font-semibold">广东科学技术职业学院</p>
           <p className="text-xl font-medium">商学院 · 商务数据分析与应用专业</p>
