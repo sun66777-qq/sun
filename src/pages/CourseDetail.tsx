@@ -89,13 +89,15 @@ export default function CourseDetail() {
         
         {/* 课程信息 */}
         <div className="p-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-4">{course.name}</h1>
-          <p className="text-gray-600 mb-6">{course.description}</p>
+          <h1 className="text-3xl font-bold text-gray-800 mb-4 text-center">{course.name}</h1>
+          <p className="text-gray-600 mb-6 text-center max-w-3xl mx-auto">{course.description}</p>
           <div className="border-t border-gray-200 pt-6">
-            <div className="text-gray-700 leading-relaxed">
-              <ReactMarkdown>
-                {course.content}
-              </ReactMarkdown>
+            <div className="text-gray-700 leading-relaxed max-w-4xl mx-auto">
+              <div className="prose prose-blue max-w-none">
+                <ReactMarkdown>
+                  {course.content}
+                </ReactMarkdown>
+              </div>
             </div>
           </div>
         </div>
