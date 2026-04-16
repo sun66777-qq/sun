@@ -57,29 +57,35 @@ export default function Home() {
       </section>
 
       {/* 个人简介 */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">关于我</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 shadow-sm">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                你好！我是狸猫，一名来自广东科学技术职业学院商学院商务数据分析与应用专业的学生。我对数据分析充满热情，致力于通过数据发现问题、解决问题，为决策提供有力支持。
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                在学习过程中，我已经掌握了Python编程、数据采集、数据库管理等基本技能，并正在深入学习数据分析技术、供应链数据分析等专业课程。我相信，通过不断学习和实践，我能够在数据分析领域取得进步。
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">5+</div>
-                  <div className="text-gray-600">专业课程</div>
+          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">关于我</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 shadow-sm">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="md:col-span-2">
+                  <p className="text-base text-gray-700 leading-relaxed mb-4">
+                    你好！我是狸猫，一名来自广东科学技术职业学院商学院商务数据分析与应用专业的学生。我对数据分析充满热情，致力于通过数据发现问题、解决问题，为决策提供有力支持。
+                  </p>
+                  <p className="text-base text-gray-700 leading-relaxed">
+                    在学习过程中，我已经掌握了Python编程、数据采集、数据库管理等基本技能，并正在深入学习数据分析技术、供应链数据分析等专业课程。我相信，通过不断学习和实践，我能够在数据分析领域取得进步。
+                  </p>
                 </div>
-                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">3</div>
-                  <div className="text-gray-600">学习学期</div>
-                </div>
-                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">∞</div>
-                  <div className="text-gray-600">学习热情</div>
+                <div className="md:col-span-1">
+                  <div className="grid grid-cols-1 gap-4">
+                    <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                      <div className="text-2xl font-bold text-blue-600 mb-1">5+</div>
+                      <div className="text-sm text-gray-600">专业课程</div>
+                    </div>
+                    <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                      <div className="text-2xl font-bold text-blue-600 mb-1">3</div>
+                      <div className="text-sm text-gray-600">学习学期</div>
+                    </div>
+                    <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                      <div className="text-2xl font-bold text-blue-600 mb-1">∞</div>
+                      <div className="text-sm text-gray-600">学习热情</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
