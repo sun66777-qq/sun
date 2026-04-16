@@ -64,21 +64,29 @@
 
 /* 表格样式 */
 .prose table {
-  width: 90%;
-  margin: 1.5rem auto;
+  width: 95%;
+  margin: 2rem auto;
   border-collapse: collapse;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .prose th,
 .prose td {
-  padding: 0.75rem;
+  padding: 1rem;
   border: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .prose th {
-  background-color: #f3f4f6;
+  background-color: #3b82f6;
+  color: white;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .prose tr:nth-child(even) {
@@ -86,5 +94,19 @@
 }
 
 .prose tr:hover {
-  background-color: #f3f4f6;
+  background-color: #eff6ff;
+  transition: background-color 0.2s ease;
+}
+
+.prose td:first-child {
+  font-weight: 500;
+}
+
+.prose table caption {
+  caption-side: top;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #374151;
 }
