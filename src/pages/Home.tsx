@@ -52,7 +52,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="mb-6">
             <img 
-              src="https://api.dicebear.com/7.x/avataaars/svg?seed=Cat&backgroundColor=0070f3" 
+              src="https://api.dicebear.com/7.x/kitty/svg?seed=Cat&backgroundColor=0070f3" 
               alt="狸猫头像" 
               className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-white shadow-lg"
             />
