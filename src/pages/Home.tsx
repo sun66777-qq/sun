@@ -52,7 +52,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="mb-6">
             <img 
-              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cute%20cartoon%20cat%20avatar%2C%20blue%20theme%2C%20simple%20style%2C%20white%20background&image_size=square" 
+              src="https://api.dicebear.com/7.x/avataaars/svg?seed=Cat&backgroundColor=0070f3" 
               alt="狸猫头像" 
               className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-white shadow-lg"
             />
