@@ -106,12 +106,8 @@ body {
   letter-spacing: 0.05em;
 }
 
-.prose tr:nth-child(even) {
-  background-color: #f9fafb;
-}
-
 .prose tr:hover {
-  background-color: #eff6ff;
+  background-color: #f3f4f6;
   transition: background-color 0.2s ease;
 }
 
