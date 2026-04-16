@@ -48,7 +48,7 @@ export default function Home() {
       </nav>
 
       {/* 个人信息 */}
-      <section className="bg-blue-600 text-white py-16">
+      <section className="bg-blue-800 text-white py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">狸猫</h1>
           <p className="text-xl mb-2">广东科学技术职业学院</p>
@@ -118,7 +118,7 @@ export default function Home() {
       </section>
 
       {/* 标语 */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+      <section className="py-16 bg-blue-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold mb-6">用数据说话，让决策更智慧</h2>
@@ -144,7 +144,7 @@ export default function Home() {
       </section>
 
       {/* 页脚 */}
-      <footer className="bg-gray-800 text-white py-8">
+      <footer className="bg-blue-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p>© 2026 狸猫的个人页面</p>
         </div>
